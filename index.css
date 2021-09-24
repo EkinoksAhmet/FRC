@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 body {
-    margin: 0;
+	margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-family: Verdana, monospace, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: justify;
+	background-image: url("resimler/gecici_arla_plan_fotografi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
 }
+
 
 #top-top-header {
     position: fixed;
@@ -38,7 +49,7 @@ body {
 #mid-header {
     left: 0;
     right: 0;
-    height: 10em;
+    height: 12em;
     background-color: orange;
     text-align: center;
     z-index: 99999999;
@@ -72,9 +83,22 @@ body {
     display: block;
 }
 
-#first-element-content {
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background-image: url("resimler/gecici_arla_plan_fotografi.jpg");
+#eragon-text-first {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main-button-hakkinda {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border: 5px solid white;
+    padding: 5px;
+    border-radius: 10px;
 }
